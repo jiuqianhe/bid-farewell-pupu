@@ -2,16 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#FDF5C7">
-  <meta name="description" content="告别蒲蒲｜风原、籽语与栖所高保真可交互原型">
-  <title>告别蒲蒲｜风原 · 籽语 · 栖所</title>
-  <script type="module" crossorigin src="/assets/index-BJ7dMOO0.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D8b9MpEX.css">
+  <title>私屿 · 修正版预览</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="overrides.css?v=2">
 </head>
 <body>
-  <main id="stage" class="stage" aria-live="polite"></main>
-  <aside id="debug-panel" class="debug-panel" hidden aria-label="开发调试"></aside>
+  <main id="app" aria-live="polite"></main>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+  <input id="restoreFile" type="file" accept="application/json" hidden>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
